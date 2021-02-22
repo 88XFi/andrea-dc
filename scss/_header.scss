@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+
+    .title {
+        text-align: center;
+        color: #f9f9f9;
+
+        h1 {
+            position: relative;
+            font-size: 70px;
+            top: 30px;
+        }
+
+        p {
+            text-transform: lowercase;
+            position: relative;
+            top: -110px;
+            left: 6px;
+            font-size: 18px;
+        }
+    }
+}

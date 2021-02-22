@@ -1,0 +1,49 @@
+nav {
+    height: 80px;
+    background: #4B9CD3;
+    width: 100%;
+    color: #f9f9f9;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    
+    ul {
+        position: relative;
+        right: 50px;
+        text-align: center;
+        
+
+        li {
+           display: inline;
+           margin: 0 30px;
+
+           a {
+             color: #f9f9f9;
+             display: inline-block;
+             transition: .3s ease;
+
+             &:hover {
+                transform: translateY(-3px);
+             }
+
+             i {
+                 color: #191970;
+             }
+           }
+        }
+    }
+
+    .profile {
+        height: 120px;
+        width: 120px;
+        background: #28527a;
+        border-radius: 50%;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+}

@@ -1,0 +1,20 @@
+@import 'config';
+@import 'nav';
+@import 'global';
+@import 'section';
+@import 'header';
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1a1a2e;
+    font-family: 'Product', sans-serif;
+    overflow: hidden;
+}
+
+::selection {
+    background: #4B9CD3;
+}
+
+@import 'media';

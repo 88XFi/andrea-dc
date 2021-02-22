@@ -1,0 +1,17 @@
+@media(max-width: 1200px) {
+    .profile {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+
+        ul {
+            left: -20px;
+            
+            li {
+                margin: 0 20px;
+            }
+        }
+    }
+}
