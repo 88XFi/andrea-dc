@@ -1,0 +1,68 @@
+#contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            color: $carol;
+        }
+
+        input, textarea {
+            font-family: 'Product';
+            outline: none;
+            border-radius: 10px;
+            background: none;
+            border: none;
+            border-bottom: 2px $carol solid;
+            font-size: 17px;
+            color: #f9f9f9;
+            text-align: left;
+            padding: 0 10px;
+
+            &::placeholder {
+                color: #ccc;
+            }
+        }
+
+        textarea {
+            resize: none;
+            width: 250px;
+            height: 80px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-size: 15px;
+            padding-top: 5px;
+        }
+    }
+
+    .name {
+        height: 40px;
+        width: 250px;
+        font-size: 15px;
+    }
+    
+    button {
+        cursor: pointer;
+        color: #f9f9f9;
+        width: 200px;
+        height: 40px;
+        background: $carol;
+        text-align: center;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+        transition: .3s ease;
+
+        &:hover {
+            background: none;
+            border: 2px $carol solid;
+            transform: translateY(-3px);
+        }
+    }
+}
