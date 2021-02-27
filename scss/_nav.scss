@@ -45,5 +45,20 @@ nav {
         position: relative;
         top: 50px;
         left: 50px;
+        padding: 8px;
+        overflow: hidden;
+
+        img {
+            display: inline-block;
+            width: 120px;
+            border-radius: 50%;
+        }
+    }
+
+    .menu {
+        font-size: 30px;
+        position: relative;
+        display: none;
+        cursor: pointer;
     }
 }

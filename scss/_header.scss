@@ -3,10 +3,13 @@ header {
     align-items: center;
     justify-content: center;
     height: 60vh;
+    flex-direction: column;
+    color: #f9f9f9;
 
     .title {
         text-align: center;
         color: #f9f9f9;
+        position: absolute;
 
         h1 {
             position: relative;
@@ -21,5 +24,21 @@ header {
             left: 6px;
             font-size: 18px;
         }
+    }
+
+    .about {
+        font-size: 20px;
+        max-width: 600px;
+        text-align: center;
+        position: absolute;
+        top: 300px;
+    }
+
+    .line {
+        width: 80%;
+        padding: 2px;
+        background: $carol;
+        position: absolute;
+        top: 290px;
     }
 }

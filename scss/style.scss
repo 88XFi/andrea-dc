@@ -18,5 +18,9 @@ body {
     background: #4B9CD3;
 }
 
+.content {
+    position: relative;
+}
+
 @import 'loader';
 @import 'media';

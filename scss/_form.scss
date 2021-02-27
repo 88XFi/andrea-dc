@@ -20,7 +20,6 @@
             background: none;
             border: none;
             border-bottom: 2px $carol solid;
-            font-size: 17px;
             color: #f9f9f9;
             text-align: left;
             padding: 0 10px;
@@ -36,15 +35,19 @@
             height: 80px;
             margin-top: 10px;
             margin-bottom: 30px;
-            font-size: 15px;
+            font-size: 14px;
             padding-top: 5px;
         }
     }
 
-    .name {
+    .name, .email {
         height: 40px;
         width: 250px;
-        font-size: 15px;
+        font-size: 14px;
+    }
+
+    .email {
+        margin: 10px 0;
     }
     
     button {
@@ -52,16 +55,16 @@
         color: #f9f9f9;
         width: 200px;
         height: 40px;
-        background: $carol;
+        background: none;
         text-align: center;
         outline: none;
         border-radius: 10px;
-        border: none;
+        border: 2px $carol solid;
         transition: .3s ease;
 
         &:hover {
-            background: none;
-            border: 2px $carol solid;
+            background: $carol;
+            border: none;
             transform: translateY(-3px);
         }
     }

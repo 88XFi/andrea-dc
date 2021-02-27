@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pfp.png">
     <title>AndreaDC | Draws</title>
 </head>
 <body>
@@ -33,43 +34,59 @@
             <div class="rocket"></div>
         </div>
     </div>
-    <section id="home">
-        <nav>
-            <div class="profile"></div>
-            <ul>
-                <li class="home">
-                    <a href="#home"><i class="fas fa-home">&nbsp;</i> Home</a>
-                </li>
-                <li class="artworks">
-                    <a href="#artworks"><i class="fas fa-paint-brush">&nbsp;</i> Artworks</a>
-                </li>
-                <li class="contacts">
-                    <a href="#contacts"><i class="fas fa-phone">&nbsp;</i> Contacts</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="content">
+        <section id="home">
+            <nav>
+                <div class="profile">
+                    <img src="img/pfp.png" alt="">
+                </div>
 
-        <header>
-            <div class="header-bg"></div>
-            <div class="title">
-                <h1>AndreaDC<span class="carol">.</span></h1>
-                <p class="carol">引き分け</p>
-            </div>
-        </header>
-    </section>
-
-    <section id="artworks">
-        
-    </section>
-
-    <section id="contacts">
-        <form action="POST" data-netlify="true" spellcheck="false" autocomplete="off">
-            <h1>message me</h1>
-            <input class="name" name="Email/Username" type="text" placeholder="email or username">
-            <textarea name="Message" cols="30" rows="10" placeholder="message"></textarea>
-            <button type="submit"><i class="fas fa-paper-plane"></i></button>
-        </form>
-    </section>
+                <div class="menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <ul>
+                    <li class="home">
+                        <a href="#home"><i class="fas fa-home">&nbsp;</i> Home</a>
+                    </li>
+                    <li class="artworks">
+                        <a href="#artworks"><i class="fas fa-paint-brush">&nbsp;</i> Artworks</a>
+                    </li>
+                    <li class="contacts">
+                        <a href="#contacts"><i class="fas fa-phone">&nbsp;</i> Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <header>
+                <div class="header-bg"></div>
+                <div class="title">
+                    <h1>AndreaDC<span class="carol">.</span></h1>
+                    <p class="carol">引き分け</p>
+                </div>
+    
+                <div class="line"></div>
+    
+                <div class="about">
+                    <p>Hello, it's Andrea DC draws! I'm an artist who draws both fanart and original art. You can follow me on Instagram and Twitter @andreadc_draws ✨</p>
+                </div>
+            </header>
+        </section>
+    
+        <section id="artworks">
+            
+        </section>
+    
+        <section id="contacts">
+            <form action="POST" data-netlify="true" spellcheck="false" autocomplete="off">
+                <h1>message me</h1>
+                <input class="name" name="Username" type="text" placeholder="username (optional)">
+                <input class="email" type="email" name="Email" placeholder="email (optional)">
+                <textarea name="Message" cols="30" rows="10" placeholder="message"></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </section>
+    </div>
 </body>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://kit.fontawesome.com/3b12d9fb6d.js" s></script>
