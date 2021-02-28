@@ -15,3 +15,9 @@ setInterval(function() {
         counter = 1;
     }
 }, 4000)
+
+let tab = $('.tab').hide();
+
+$('.menu').click(() => {
+    $('.tab').slideToggle(1000);
+});

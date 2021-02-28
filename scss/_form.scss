@@ -70,11 +70,12 @@
         }
     }
 
+
     footer {
         background: darken(#1a1a2e, 3%);
         width: 100%;
-        position: absolute;
-        bottom: 0;
+        position: relative;
+        bottom: -100px;
         text-decoration: none;
         height: 50px;
         display: flex;

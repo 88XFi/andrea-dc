@@ -12,15 +12,11 @@ body {
     box-sizing: border-box;
     background: #1a1a2e;
     font-family: 'Product', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 ::selection {
     background: #4B9CD3;
-}
-
-.content {
-    position: relative;
 }
 
 @import 'loader';
