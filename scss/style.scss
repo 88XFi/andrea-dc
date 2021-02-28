@@ -4,6 +4,7 @@
 @import 'section';
 @import 'header';
 @import 'form';
+@import 'artworks';
 
 body {
     margin: 0;
@@ -11,7 +12,7 @@ body {
     box-sizing: border-box;
     background: #1a1a2e;
     font-family: 'Product', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 ::selection {

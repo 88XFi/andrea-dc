@@ -1,7 +1,7 @@
 @media(max-width: 1200px) {
 
     .about {
-        max-width: 200px;
+        width: 400px;
     }
 
     nav {
@@ -17,6 +17,30 @@
 
         .profile {
             left: 20px;
+        }
+    }
+
+    #artworks {
+        .art {
+            width: 400px;
+            height: 480px;
+            top: 130px;
+    
+            .slides {
+                height: 480px;
+
+                .slide img {
+                    width: 400px;
+                }
+            }
+
+            .navigation-manual {
+                width: 400px;
+            }
+
+            .navigation-auto {
+                width: 400px;
+            }
         }
     }
 }
