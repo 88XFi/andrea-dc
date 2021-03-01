@@ -21,25 +21,26 @@
     }
 
     #artworks {
+        .navigation-manual {
+            width: 350px;
+        }
+
+        .navigation-auto {
+            width: 350px;
+            margin-top: 440px;
+        }
+
         .art {
             width: 350px;
             height: 480px;
             top: 70px;
-    
+
             .slides {
                 height: 480px;
 
                 .slide img {
                     width: 400px;
                 }
-            }
-
-            .navigation-manual {
-                width: 350px;
-            }
-
-            .navigation-auto {
-                width: 350px;
             }
         }
     }

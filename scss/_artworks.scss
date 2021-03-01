@@ -8,12 +8,13 @@
     background-size: cover;
     
     .art {
-        width: 500px;
+        width: 450px;
         height: 580px;
         border-radius: 10px;
         overflow: hidden;
         position: relative;
         top: 50px;
+        box-shadow: 0px 0px 20px 3px #000;
 
         .slides {
             width: 500%;
@@ -51,7 +52,7 @@
 
 .navigation-manual {
     position: absolute;
-    width: 500px;
+    width: 450px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -100,7 +101,7 @@
 .navigation-auto {
     position: absolute;
     display: flex;
-    width: 500px;
+    width: 450px;
     justify-content: center;
     margin-top: 540px;
 
