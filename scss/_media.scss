@@ -22,7 +22,7 @@
 
     #artworks {
         .art {
-            width: 400px;
+            width: 350px;
             height: 480px;
             top: 70px;
     
@@ -35,12 +35,18 @@
             }
 
             .navigation-manual {
-                width: 400px;
+                width: 350px;
             }
 
             .navigation-auto {
-                width: 400px;
+                width: 350px;
             }
+        }
+    }
+
+    .icons {
+        ul li {
+            margin: 0 25px;
         }
     }
 }

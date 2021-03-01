@@ -15,6 +15,7 @@ header {
             position: relative;
             font-size: 70px;
             top: 30px;
+            text-shadow: 2px 2px 2px #000;
         }
 
         p {
@@ -23,6 +24,7 @@ header {
             top: -110px;
             left: 6px;
             font-size: 18px;
+            text-shadow: 2px 2px 2px #000;
         }
     }
 
@@ -32,6 +34,7 @@ header {
         text-align: center;
         position: absolute;
         top: 300px;
+        text-shadow: 2px 2px 5px #000;
     }
 
     .line {
@@ -40,5 +43,39 @@ header {
         background: $carol;
         position: absolute;
         top: 290px;
+        animation: animate1 2s linear infinite;
+        background-size: 200% 200%;
+        background-color: #29539b;
+        background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+    }
+}
+
+.icons {
+    width: 70%;
+    height: 100px;
+    position: relative;
+    top: 260px;
+
+    ul {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        li {
+            margin: 0 50px;
+
+            a {
+                color: #f9f9f9;
+                transition: .3s ease;
+                display: inline-block;
+
+                &:hover {
+                    transform: translateY(-3px);
+                    color: $carol;
+                }
+            }
+        }
     }
 }

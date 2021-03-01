@@ -3,7 +3,8 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 $(window).on('load', () => {
-    $('.color').fadeOut(500)
+    $('.color').fadeOut(500);
+    $('body').css({ overflowY: 'scroll' });
 })
 
 let counter = 1;
