@@ -23,11 +23,19 @@
     #artworks {
         .navigation-manual {
             width: 350px;
+
+            .manual-btn {
+                padding: 4px;
+            }
         }
 
         .navigation-auto {
             width: 350px;
             margin-top: 440px;
+
+            div {
+                padding: 4px;
+            }
         }
 
         .art {

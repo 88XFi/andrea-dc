@@ -98,6 +98,10 @@
     margin-left: -100%;
 }
 
+#radio7:checked ~ .first{
+    margin-left: -120%;
+}
+
 .navigation-auto {
     position: absolute;
     display: flex;
@@ -138,5 +142,9 @@
 }
 
 #radio6:checked ~ .navigation-auto .auto-btn6 {
+    background: $carol;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn6 {
     background: $carol;
 }
