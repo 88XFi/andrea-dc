@@ -23,7 +23,7 @@ $('.menu').click(() => {
     $('.tab').slideToggle(1000);
 });
 
-function changeSize() {
+/* function changeSize() {
     if (window.matchMedia('(max-width: 1100px)').matches) {
         $('.fb-post').attr('data-width', '350px');
     } else {
@@ -33,12 +33,19 @@ function changeSize() {
 
 let x = window.matchMedia('(max-width: 1100px)');
 
-$(document).ready(changeSize())
+$(document).ready(changeSize()) */
 
-/* function resize() {
+function resize() {
     
     let screenWidth = parseInt($('body').width());
     let fbPost = $('.fb-post');
 
-    if ()
-} */
+    if (screenWidth < 1100) {
+        fbPost.attr('data-width', '350');
+    } else if (screenWidth > 1100) {
+        fbPost.attr('data-width', '500');
+    }
+}
+
+$(window).resize(() => {resize()});
+$(document).ready(() => {resize()});
