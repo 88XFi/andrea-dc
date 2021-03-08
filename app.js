@@ -33,4 +33,12 @@ function changeSize() {
 
 let x = window.matchMedia('(max-width: 1100px)');
 
-changeSize();
+$(document).ready(changeSize())
+
+/* function resize() {
+    
+    let screenWidth = parseInt($('body').width());
+    let fbPost = $('.fb-post');
+
+    if ()
+} */
