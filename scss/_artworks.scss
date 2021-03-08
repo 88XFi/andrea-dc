@@ -6,6 +6,7 @@
     background-image: url(./img/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     
     .art {
         width: 450px;
@@ -147,4 +148,18 @@
 
 #radio7:checked ~ .navigation-auto .auto-btn6 {
     background: $carol;
+}
+
+/* Latest Artworks */
+
+#new-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lighten($carol, 35%);
+
+    .fb-post {
+        position: relative;
+        top: 45px;
+    }
 }
