@@ -156,9 +156,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: lighten($carol, 35%);
+    background: lighten($carol, 20%);
 
-    .fb-post {
+    .fb-container {
         position: relative;
         top: 45px;
     }

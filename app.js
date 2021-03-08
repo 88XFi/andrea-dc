@@ -2,16 +2,16 @@ var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 800
 });
 
-function changeSize() {
+/* function changeSize() {
     if (window.matchMedia('(max-width: 1100px)').matches) {
         $('.fb-post').attr('data-width', '350px');
     } else {
         null;
     }
-}
+} */
 
 $(window).on('load', () => {
-    changeSize();
+    //changeSize();
     $('.color').fadeOut(500);
     $('body').css({ overflowY: 'scroll' });
 })
