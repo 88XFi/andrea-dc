@@ -9,6 +9,7 @@
     justify-content: center;
     background: darken($carol, 10%);
     font-size: 14px;
+    transition: .5s;
 
     p {
         cursor: default;
