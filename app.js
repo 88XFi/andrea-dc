@@ -3,7 +3,6 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 $(window).on('load', () => {
-    //changeSize();
     $('.color').fadeOut(500);
     $('body').css({ overflowY: 'scroll' });
 });
@@ -23,18 +22,3 @@ let tab = $('.tab').hide();
 $('.menu').click(() => {
     $('.tab').slideToggle(1000);
 });
-
-/* function resize() {
-    
-    let screenWidth = parseInt($('body').width());
-    let fbPost = $('.fb-post');
-
-    if (screenWidth < 1100) {
-        fbPost.attr('data-width', '350');
-    } else if (screenWidth > 1100) {
-        fbPost.attr('data-width', '500');
-    }
-}
-
-$(window).resize(() => {resize()});
-$(document).ready(() => {resize()}); */
