@@ -1,66 +1,65 @@
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
+  .about {
+    width: 400px;
+  }
 
-    .about {
-        width: 400px;
+  // nav {
+
+  //     ul {
+  //         display: none;
+  //     }
+
+  //     .menu {
+  //         right: 20px;
+  //         display: block;
+  //     }
+
+  //     .profile {
+  //         left: 20px;
+  //     }
+  // }
+
+  #artworks {
+    .navigation-manual {
+      width: 350px;
+
+      .manual-btn {
+        padding: 4px;
+      }
     }
 
-    nav {
-        
-        ul {
-            display: none;
-        }
+    .navigation-auto {
+      width: 350px;
+      margin-top: 440px;
 
-        .menu {
-            right: 20px;
-            display: block;
-        }
-
-        .profile {
-            left: 20px;
-        }
+      div {
+        padding: 4px;
+      }
     }
 
-    #artworks {
-        .navigation-manual {
-            width: 350px;
+    .art {
+      width: 350px;
+      height: 480px;
+      top: 50px;
 
-            .manual-btn {
-                padding: 4px;
-            }
+      .slides {
+        height: 480px;
+
+        .slide img {
+          width: 400px;
         }
-
-        .navigation-auto {
-            width: 350px;
-            margin-top: 440px;
-
-            div {
-                padding: 4px;
-            }
-        }
-
-        .art {
-            width: 350px;
-            height: 480px;
-            top: 50px;
-
-            .slides {
-                height: 480px;
-
-                .slide img {
-                    width: 400px;
-                }
-            }
-        }
+      }
     }
+  }
 
-    .icons {
-        ul li {
-            margin: 0 25px;
-        }
+  .icons {
+    ul li {
+      margin: 0 25px;
     }
+  }
 
-    #new-art .fb-container {
-        width: 360px;
-        height: 590px;
-    }
+  #new-art .fb-container {
+    width: 360px;
+    height: 590px;
+  }
 }
